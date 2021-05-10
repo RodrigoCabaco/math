@@ -1,0 +1,9 @@
+function ToInt(){
+    numToStr(to_convert>>to_convert)
+    getSplit from:to_convert; to:to_convert; index:0; separator:".";
+    strToNum(to_convert)
+};
+
+ToInt(to_convert)
+return:
+to_convert

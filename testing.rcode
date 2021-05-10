@@ -1,18 +1,7 @@
-import pow
+import integer
+import split
 
-
-function call(pow);
-    num to_pwr >>9
-    num pwr >>4021
-    pow(to_pwr,pwr)
-}call;
-call(math.pow)
-Write "$pwrd$"
-newln
-Write "Total time to run: "
-exectime(secs)
-newln
-Write "Total time to run (ms): "
-exectime(ms)
-newln
-exit()
+num x >>8.23123
+num to_convert >>x
+integer(to_convert)
+WriteNum {to_convert}
