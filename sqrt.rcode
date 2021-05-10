@@ -1,0 +1,11 @@
+#math.sqrt
+#rC Module
+#args, to_find
+
+num _to_find >>to_find
+
+function _sqrt(_to_find){
+    #Main func
+};
+
+_sqrt(_to_find)
