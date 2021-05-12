@@ -1,13 +1,15 @@
 #math.pow
 #args: to_pwr, pwr;
 #result: to_pwr**pwr
-num _pwrd_ >>to_pwr
-num init_pwr >>_pwrd_
-num pwr_ >>pwr
-pwr_-1
-for _pwr in range:pwr_;{
-    _pwrd_*init_pwr
-};
-#returns pwrd
-num pwrd >>_pwrd_
-return pwrd;
+function _pwr(num to_pwr, pwr){
+    num init >>to_pwr
+    --pow
+    for __pwr in range:pow;{
+        to_pwr*init
+    };
+    returns to_pwr;
+    
+
+}_pwr;
+_pwr(num to_pwr >>to_pwr;;num pwr >>pwr)
+
